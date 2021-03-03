@@ -95,16 +95,16 @@ export default async function createPdf(specUrl, options) {
 
   pdfMake.fonts = {
     Roboto: {
-      normal: 'Roboto-Regular.ttf',
-      bold: 'Roboto-Medium.ttf',
-      italics: 'Roboto-Italic.ttf',
-      bolditalics: 'Roboto-Medium.ttf',
+      normal: 'Oxygen-Sans.ttf',
+      bold: 'Oxygen-Sans-Bold.ttf',
+      italics: 'Oxygen-Sans.ttf',
+      bolditalics: 'Oxygen-Sans-Bold.ttf',
     },
     RobotoMono: {
-      normal: 'RobotoMono-Regular.ttf',
-      bold: 'RobotoMono-Regular.ttf',
-      italics: 'RobotoMono-Regular.ttf',
-      bolditalics: 'RobotoMono-Regular.ttf',
+      normal: 'OxygenMono-Regular.ttf',
+      bold: 'OxygenMono-Regular.ttf',
+      italics: 'OxygenMono-Regular.ttf',
+      bolditalics: 'OxygenMono-Regular.ttf',
     },
 
   };
